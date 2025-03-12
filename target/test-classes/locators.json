@@ -1,0 +1,24 @@
+{
+  "LoginPage": {
+                "usernameField": {
+                        "locator": "id",
+                        "value": "username"
+                },
+                "passwordField": {
+                        "locator": "id",
+                        "value": "password"
+                },
+                "loginButton": {
+                        "locator": "css",
+                        "value": "button[type='submit']"
+                },
+                "successMessage": {
+                        "locator": "id",
+                        "value": "flash"
+                },
+                  "failureMessage": {
+                            "locator": "id",
+                            "value": "flash"
+                    }
+  }
+}
