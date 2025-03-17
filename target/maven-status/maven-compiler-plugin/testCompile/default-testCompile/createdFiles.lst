@@ -1,3 +1,6 @@
+utils\Constants.class
+utils\LoggerConfig.class
 utils\JsonReader.class
 runners\TestRunner.class
+hooks\Hooks.class
 stepDefinitions\mainStep.class

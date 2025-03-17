@@ -12,5 +12,7 @@
     @IncludeEngines("cucumber")
     @SelectClasspathResource("features")
     @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
-    @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "stepDefinitions")
-    public class TestRunner {}
+    @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "hooks,stepDefinitions")
+    public class TestRunner {
+
+    }
